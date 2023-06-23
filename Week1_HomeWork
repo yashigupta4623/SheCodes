@@ -1,1 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
 
+  <style>
+    
+    /* .img {
+      background-image: url("cloud.jpg");
+      height: 100vh;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    } */
+
+    body {
+      text-align: center;
+      margin: 3cm;
+      background-color: antiquewhite;
+      line-height: 1cm;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    }
+
+
+    .current {
+      color: blue;
+      font-size: 40px;
+      font-weight: bold;
+    }
+
+    .tem {
+      font-weight: normal;
+    }
+
+    .temp1 {
+      font-weight: bold;
+      line-height: 1.5cm;
+    }
+
+    .tom1,
+    .tom2,
+    .tom3 {
+      font-weight: bold;
+      padding: 1px;
+      font-size: 35px;
+    }
+
+    .to1,
+    .to2,
+    .to3 {
+      font-size: 23px;
+      line-height: 1cm;
+      font-weight: bold;
+    }
+
+    .tem1,
+    .tem2,
+    .tem3 {
+      font-size: 22px;
+      line-height: 2cm;
+    }
+
+    .button {
+      border-radius: 20px;
+      width: 100px;
+      height: 30px;
+      color: rgb(8, 8, 8);
+      background-color: rgb(183, 193, 117);
+    }
+
+    button:hover {
+      color: rgb(11, 204, 204);
+      background-color: black;
+    }
+
+    .des {
+      line-height: 3cm;
+    }
+
+    .at1:hover, .at2:hover, .at3:hover{
+        background-color: rgb(230, 225, 226);
+    }
+  </style>
+
+  <body>
+   
+      <h1>
+        <div>🌤</div>
+        <div class="current">Currently 21° in Delhi</div>
+        <div class="tem">
+          13° /
+          <span class="temp1"> 23°</span>
+        </div>
+      </h1>
+      <div class="at1">
+        <span class="tom1">🌧Tomorrow</span>
+        <div class="tem1">10° / <span class="to1">22°</span></div>
+      </div>
+      <div class="at2">
+        <span class="tom2">🌥Saturday</span>
+        <div class="tem2">15° / <span class="to2">17°</span></div>
+      </div>
+      <div class="at3">
+        <span class="tom3">☀Sunday</span>
+        <div class="tem3">25° / <span class="to3">28°</span></div>
+      </div>
+
+      <button class="button">Change City</button>
+
+      <div class="des">Coded by Yashi Gupta</div>
+
+  </body>
+</html>

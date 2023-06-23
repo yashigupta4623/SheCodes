@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: #f5f0fe;
+        }
+
+        h1{
+            color: #885df1;
+            font-size: 50px;
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        p{
+            text-align: center;
+            font-size: 35px;
+            color: #272044;  
+        }
+
+        .code{
+            font-size: 20px;
+            padding: 1.4cm 7.5cm ; 
+            display: block;
+            margin: 0 auto;
+            ;
+        }
+         .contact{
+           
+            padding: 1.4cm 5cm ; 
+            font-weight: 100cm;
+            display: block;
+            margin: 0 auto;
+        } 
+        .red{
+            color: red;
+        }
+        .green{
+            color: green;
+        }
+        .blue{
+            color: blue;
+        }
+
+        h2{
+            text-align: center;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+        button{
+            display: block;
+            margin: 0 auto;
+            padding: 15px 20px;
+            color: white;
+            background: blueviolet;
+            border: 1px solid #885df1;
+            border-radius: 30px;
+            transition: all 200ms linear;
+            box-shadow: 2px 2px rgb(207, 194, 194) ;
+        }
+
+        button:hover{
+            background: white;
+            color: blueviolet;
+            cursor: pointer;
+        }
+
+        .email, .ig {
+            color: #885df1;
+
+        }
+    </style>
+</head>
+<body>
+   
+    <h1>
+        SheCodes
+    </h1>
+    <p>
+        <strong>Coding workshops</strong>
+        <em></em> 
+    </p>
+    <button>
+        Apply Now
+    </button>
+    <div class="code">
+        <span class="red">Coders&nbsp;&nbsp;</span>
+        <span class="blue">Courses&nbsp;&nbsp;</span>
+        <span class="green">Stories</span>
+    </div>
+    <hr>
+    <h2>More info</h2>
+    <img src="image.jpg" alt="">
+
+     <div class="contact">
+        <span class="email">Email: </span>
+        <span>hello@shecodes.io</span>
+        <span class="ig">Instagram:  </span>
+        <span>@shecodes.io </span>
+    </div> 
+</body>
+</html>

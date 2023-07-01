@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0 auto;
+            margin-top: 140px;
+            padding: 0;
+            text-align: center;
+            background-repeat: no-repeat;
+            background-size: auto;
+            object-fit: cover;
+            background-image: url(wallpaper.jpg)
+        }
+
+        .outer{
+            width: 6cm;
+            background-color: #CC99FF;
+             display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0 auto;
+                padding: 100px;
+                border-radius: 15px;
+        }
+        
+
+        .inner{
+            background-color: rgb(33, 62, 64);
+            height: 26vh;
+            margin: 0;
+            padding: 80px;
+            border-radius: 15px;
+        }
+
+        h1{
+            color: aliceblue;
+            text-decoration: underline;
+        }
+        
+        .form_txt{
+            padding: 3px;
+            display: block;
+            margin: 8px;
+        }
+        
+        .button{
+            width: 80px;
+        }
+
+        button:hover{
+            color: goldenrod;
+            background-color: rgb(9, 9, 9);
+            cursor: pointer;
+            box-shadow: 2px 2px rgb(207, 194, 194) ;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="outer">
+        <div class="inner">
+        <h1>LOG IN</h1>
+                <form class="login-form">
+                    <input type="text" class="form_txt" placeholder="username" > </br>
+                    <input type="password" class="form_txt" placeholder="password" /> </br>
+                    <button class="button">login</button>
+                </form>
+        </div>
+    </div>
+</body>
+
+</html>
